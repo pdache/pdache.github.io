@@ -33,7 +33,7 @@ bind라는 녀석인데 bind()는 이벤트 바인딩을 위한 메서드이다.
 - <Return> : Enter 키 눌려짐
 - <Key> : 키가 눌려짐
 ```  
-이 녀석들 중 나는 마우스로 한번 클릭이므로 "<Button-1>"을 사용할 것이다.  
+이 녀석들 중 나는 마우스로 한번 클릭이므로 Button-1을 사용할 것이다.  
 
 ``` python
 from tkinter import *
