@@ -26,10 +26,11 @@ tags:
 - CheckButton
 - MenuButton
 ```
-우선 그냥 Button은 말 그대로 그냥 Button이다. 난 이거 쓸거다.  
-RadioButton은 여러 옵션들이 있을 때 하나를 선택할 때 사용한다.  
-CheckButton은 여러 옵션들이 있을 때 여러 개를 선택할 때 사용한다.  
-MenuButton은 메뉴 기능을 가진 버튼을 생성할 수 있다.  
+- 그냥 Button은 말 그대로 그냥 Button이다.
+- RadioButton은 여러 옵션들이 있을 때 하나를 선택할 때 사용한다.  
+- CheckButton은 여러 옵션들이 있을 때 여러 개를 선택할 때 사용한다.  
+- MenuButton은 메뉴 기능을 가진 버튼을 생성할 수 있다.  
+
 다 필요 없고 Button이 필요하다.  
 우선 하나 만들어보자.
 
@@ -56,6 +57,7 @@ grid는 행렬 개념이긴 하지만 앞에서부터 채워지기 때문에 상
 
 #### Button Method
 - - -
+
 |이름|기능|
 |:---:|:---:|
 |invoke()|버튼을 클릭했을 때와 같은 기능|
@@ -63,6 +65,7 @@ grid는 행렬 개념이긴 하지만 앞에서부터 채워지기 때문에 상
 
 #### Button Parameter
 - - -
+
 |이름|기능|default|속성|
 |:---:|:---:|:---:|:---:|
 |text|버튼에 표시할 문자열|-|-|
