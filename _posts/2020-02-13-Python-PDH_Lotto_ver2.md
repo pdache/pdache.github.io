@@ -1,6 +1,6 @@
 ---
 title: "[Python] 내 전용 로또 번호 생성기 #1"
-excerpt: "기본 문법 이해 및 세팅"
+excerpt: "기본 문법 이해 및 Entry"
 
 categories:
 - python
@@ -69,6 +69,8 @@ root.geometry('400x300')
 
 entry1=ttk.Entry(root)
 entry1.grid(row=1, column=0)
+
+root.mainloop()
 ```
 우선은 잘 나오나 하나만 테스트 해보았다.  
 grid가 궁금할 수 있는 사람들을 위해 짧게 설명하자면 tkinter의 위젯 배치를 위한 것이다.  
@@ -89,6 +91,8 @@ root.geometry('400x300')
 
 entry1=ttk.Entry(root, width=5)
 entry1.grid(row=3, column=0)
+
+root.mainloop()
 ```
 Entry의 default width는 20으로 설정되어 있기 때문에 5로 바꿔보았다.  
 ![Entry 수정](https://user-images.githubusercontent.com/37354733/74396277-ce162a80-4e54-11ea-99da-547c5dcbbd3c.png)
