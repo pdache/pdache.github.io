@@ -55,7 +55,7 @@ grid는 행렬 개념이긴 하지만 앞에서부터 채워지기 때문에 상
 버튼 안에 text를 채워 넣어야겠다.  
 이것 저것 설정하고 추가하기 위해 Button의 메서드와 파라미터에 대해 간단히 알아보자.    
 
-#### Button Method
+### Button Method
 - - -
 
 |이름|기능|
@@ -63,7 +63,7 @@ grid는 행렬 개념이긴 하지만 앞에서부터 채워지기 때문에 상
 |invoke()|버튼을 클릭했을 때와 같은 기능|
 |flash()|버튼이 깜빡임|
 
-#### Button Parameter
+### Button Parameter
 - - -
 
 |이름|기능|default|속성|
@@ -82,7 +82,7 @@ btn.pack()
 ```
 이 부분만 수정하면 된다.  
 
-![버튼](https://user-images.githubusercontent.com/37354733/74400529-81851c00-4e61-11ea-90b4-257aa426d5f0.png)  
+![버튼](https://user-images.githubusercontent.com/37354733/74400529-81851c00-4e61-11ea-90b4-257aa426d5f0.png)    
 드디어 버튼이 생성되었다.  
 이제 번호 출력 Entry와 Button을 같이 출력해보자.  
 오우 큰일났다.  
@@ -120,6 +120,6 @@ place로 다 바꾸고 좌표 또한 내가 봤을 때 이쁘게 수정했다.
 Entry와 Button의 위치를 다 설정하니 창이 너무 커서 보기 싫어졌다.  
 그래서 창도 줄였다.
 ![최종 프로그램 디자인](https://user-images.githubusercontent.com/37354733/74401187-dc1f7780-4e63-11ea-8c37-73d8f9010795.png)  
-기쁘다.  
+  기쁘다.  
 [내가 원하는 디자인](https://user-images.githubusercontent.com/37354733/74393970-d8352a80-4e4e-11ea-9799-6016c4c77fdd.png){: target="_blank"}처럼 완성되었다.  
 다음 포스팅부터는 기능적인 부분을 구현해보자!
