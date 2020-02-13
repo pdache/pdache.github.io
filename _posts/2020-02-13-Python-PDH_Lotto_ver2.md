@@ -30,7 +30,8 @@ import를 하고 나서는 Tk 클래스 객체를 root에 설정한다.
 그리고 이 객체의 title 즉, 프로그램의 상단 바에 나타나는 제목을 설정한다.  
 바로 내 signature인 PDH를 설정해주었다.  
 그 후, mainloop() 메서드를 호출한다. mainloop() 메서드는 이벤트 메시지 루프로서 키보드나 마우스 등 다양한 이벤트로부터 오는 메시지를 받고 전달하는 역할을 한다.  
-위의 코드를 실행하면 기본적인 틀을 만들게 된다.
+위의 코드를 실행하면 기본적인 틀을 만들게 된다.  
+
 ![PDH_Lotto 틀](https://user-images.githubusercontent.com/37354733/74389436-7c17d980-4e41-11ea-99ea-32bdeed27099.png)
 예쁘다.  
 하지만 크기가 작아서 PDH_Lotto로 설정한 나의 title이 잘려서 나오는 것을 확인할 수 있다.  
@@ -44,8 +45,8 @@ root.geometry("400x300")
 root.mainloop()
 ```
 geometry 메서드는 객체.geometry("너비x높이+x좌표+y좌표")로 나타내어 창의 너비와 높이, 초기 화면 위치의 x, y 좌표를 설정할 수 있다.
-나는 굳이 x,y 좌표는 필요성을 못 느껴서 너비와 높이만 설정했다.  
-![크기 재설정](https://user-images.githubusercontent.com/37354733/74393350-2cd7a600-4e4d-11ea-8b36-0411ec22e303.png)
+나는 굳이 x,y 좌표는 필요성을 못 느껴서 너비와 높이만 설정했다.    
+![크기 재설정](https://user-images.githubusercontent.com/37354733/74393350-2cd7a600-4e4d-11ea-8b36-0411ec22e303.png)  
 예쁘다.  
 빨리 안에 채워 넣고 싶은 욕구가 생겼다.  
 
