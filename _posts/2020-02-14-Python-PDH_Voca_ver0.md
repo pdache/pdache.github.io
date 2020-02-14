@@ -18,8 +18,9 @@ tags:
 너무 재밌게 만들었기 때문에 또 다른 프로그램을 만들고 싶었다.  
 그래서 알아보던 중 **PyQt** 라는 cuty한 녀석을 만나게 되었다.  
 궁금해서 조사를 해보니 좀 충격이었다.  
-> Python에도 PyGTK, PySide, Tkinter등 다양한 GUI Framework가 존재합니다. 하지만 이런 GUI Framework들은 사용하기도 어렵고, 시각적으로 예쁘지 않다는 단점이 있습니다.
-> PyQt는 이러한 Framework들과 다르게 시각적으로도 괜찮은 디자인을 보여주면서 Qt Designer라는 프로그램을 이용하여 프로그램을 손쉽게 설계할 수 있다는 장점이 있습니다.
+> * Python에도 PyGTK, PySide, Tkinter등 다양한 GUI Framework가 존재합니다. 하지만 이런 GUI Framework들은 사용하기도 어렵고, 시각적으로 예쁘지 않다는 단점이 있습니다.
+  
+> * PyQt는 이러한 Framework들과 다르게 시각적으로도 괜찮은 디자인을 보여주면서 Qt Designer라는 프로그램을 이용하여 프로그램을 손쉽게 설계할 수 있다는 장점이 있습니다.
 
 요약하자면 **tkinter는 어렵고 예쁘지 않다.**  
 반대로 **PyQt는 예쁘며 디자인이 쉽다**  
